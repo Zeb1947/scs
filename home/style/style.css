@@ -41,8 +41,14 @@ a:hover {
     position: relative;
 }
 
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
 #welcome {
     color: rgb(64, 91, 246);
+    font-family: "Copperplate", "Papyrus", "fantasy";
 }
 
 #phone-number {
