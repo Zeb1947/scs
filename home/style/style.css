@@ -55,6 +55,10 @@ a:hover {
     color: darkgreen;
 }
 
+#email {
+    color: blue
+}
+
 #products {
     display: flex;
     justify-content: center;  /* center the columns horizontally */
