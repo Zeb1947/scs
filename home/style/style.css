@@ -42,13 +42,27 @@ a:hover {
 }
 
 .logo {
-    width: 100px !important;
-    height: 100px !important;
+    width: 150px !important;
+    height: 150px !important;
+}
+
+.pay-button {
+    display: inline-block;
+    padding: 1px 10px;
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.pay-button:hover {
+    color: white;
 }
 
 #welcome {
     color: rgb(64, 91, 246);
-    font-family: "Copperplate", "Papyrus", "fantasy";
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #phone-number {
