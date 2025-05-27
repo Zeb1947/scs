@@ -41,6 +41,25 @@ a:hover {
     position: relative;
 }
 
+.header {
+    position: relative;
+    gap: 10px; /* Optional spacing between image and text */
+    text-align: center;
+    position: relative;
+}
+
+.cube-images {
+    padding: 80px;
+}
+
+.flag-container {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-left: 10px;
+}
+
 .logo {
     width: 150px !important;
     height: 150px !important;
@@ -63,6 +82,9 @@ a:hover {
 #welcome {
     color: rgb(64, 91, 246);
     font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 0;
+    line-height: 60px;
 }
 
 #email {
